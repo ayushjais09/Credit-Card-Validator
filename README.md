@@ -28,12 +28,16 @@
 Let’s understand the algorithm with an example: Consider the example of an account number “79927398713“. 
 Step 1 – Starting from the rightmost digit, double the value of every second digit. 
 ![image](https://github.com/ayushjais09/Credit-Card-Validator/assets/154812179/d2450623-7109-4e45-ac08-9527b3b3eec1)
+
 Step 2 – If doubling of a number results in a two digit number i.e greater than 9(e.g., 6 × 2 = 12), then add the digits of the product (e.g., 12: 1 + 2 = 3, 15: 1 + 5 = 6), to get a single digit number. 
 ![image](https://github.com/ayushjais09/Credit-Card-Validator/assets/154812179/f5f63553-c70c-44f6-b4f4-605473968aaf)
+
 Step 3 – Now take the sum of all the digits.
 ![image](https://github.com/ayushjais09/Credit-Card-Validator/assets/154812179/7a800cdc-d800-442f-90b1-5d38f0c0e8a5)
+
 Step 4 – If the total modulo 10 is equal to 0 (if the total ends in zero) then the number is valid according to the Luhn formula; else it is not valid.
 ![image](https://github.com/ayushjais09/Credit-Card-Validator/assets/154812179/e0a0beeb-3f40-4ec1-9872-96bfa98b826a)
+
 Since the sum is 70 which is a multiple of 10, the account number is possibly valid.
 
 # Flowchart
