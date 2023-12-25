@@ -25,7 +25,8 @@
 * The algorithm was designed to protect against accidental errors, not malicious attacks.
 
 *Steps involved in the Luhn algorithm
-Let’s understand the algorithm with an example: Consider the example of an account number “79927398713“. 
+Let’s understand the algorithm with an example: Consider the example of an account number “79927398713“.
+
 Step 1 – Starting from the rightmost digit, double the value of every second digit. 
 ![image](https://github.com/ayushjais09/Credit-Card-Validator/assets/154812179/d2450623-7109-4e45-ac08-9527b3b3eec1)
 
